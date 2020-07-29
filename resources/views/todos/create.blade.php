@@ -13,10 +13,13 @@
             <div class="col-3">
                 <input class="form-control" type="text" name="title" />
             </div>
-        
+
             <div class="cols">
-                <input type="submit" class="btn btn-secondary" value="Create" />
+                <input type="submit" class="btn btn-secondary" placeholder="title" value="Create" />
             </div>
+        </div>
+        <div class="container w-50">
+            <textarea name="description" class="mt-3 form-control" placeholder="Description" cols="20" rows="10"></textarea>
         </div>
     </form>
     <a href="/todos" class="btn btn-info">Back</a>
